@@ -24,3 +24,6 @@ for b in rdnaSeq:
 
 complementcomplete = " ".join(complement)
 print(complementcomplete)
+
+# DB: Good! My only suggestion is to join together bases of complement
+#     without spaces: "".join(complement).
